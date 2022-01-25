@@ -1,0 +1,42 @@
+.box {
+    border-style: solid;
+    border-color: black;
+    padding: 50px;
+    color: black;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (min-width: 180px) and (max-width: 300px)   {
+    .box {
+        background-color: blueviolet;
+        font-size: 20px;
+        background-image: url(sleeping.png);
+    }
+}
+    
+@media screen and (min-width: 300px) {
+    .box {
+        background-color: blue;
+        font-size: 40px;
+        background-image: url(pubg.jpg);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .box {
+        background-color: yellow;
+        font-size: 60px;
+        background-image: url(james.jpg);
+    }
+}    
+
+@media screen and (min-width: 800px) {
+    .box {
+        background-color: brown;
+        font-size: 80px;
+        background-image: url(nova.jpg);
+    }
+}    
